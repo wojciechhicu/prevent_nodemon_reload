@@ -1,13 +1,13 @@
 {
   "name": "json_nodemon",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodemon server db as json file. Nodemon reload after every change but not json file.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./src/test.ts --ignore *.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Wojciech Adam Marek",
   "license": "ISC",
   "dependencies": {
     "@types/body-parser": "^1.19.2",
